@@ -17,7 +17,7 @@ def test_index(client):
 
 
 def test_winc(client):
-    response = client.get("/")
+    response = client.get("/winc")
 
     assert response.status_code == 200
     assert response.data == b"<h1>Hello, Winc Academy!</h1>"
