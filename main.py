@@ -13,4 +13,4 @@ def index():
 
 @app.route('/winc')
 def winc():
-    return "<h1>Hello, Winc Academy!</h1>"
+    return "<h1>Hello, Winc Academy!, Het werkt!</h1>"
