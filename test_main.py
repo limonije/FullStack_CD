@@ -21,3 +21,10 @@ def test_winc(client):
 
     assert response.status_code == 200
     assert response.data == b"<h1>Hello, Winc Academy!</h1>"
+
+
+def test_succes(client):
+    response = client.get("/succes")
+
+    assert response.status_code == 200
+    assert response.data == b"<h1>Deployment is een succes</h1>"
