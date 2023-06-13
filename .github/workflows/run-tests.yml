@@ -27,5 +27,5 @@ jobs:
 
           script: |
            cd /home/farm
-           wget -O main.py https://raw.githubusercontent.com/limonije/FullStack_CD/main/main.py
+           git pull origin main
            sudo systemctl restart nginx 
