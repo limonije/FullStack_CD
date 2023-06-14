@@ -18,4 +18,4 @@ def winc():
 
 @app.route('/succes')
 def succes():
-    return "<h1>Deployment is een succes</h1>"
+    return "<h1>Deployment is wederom een succes</h1>"
