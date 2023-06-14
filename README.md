@@ -30,4 +30,4 @@ After the deployment succeeded I wanted to check in the browser if the app also 
 
 ### Conclusion
 
-I know have a better understanding how deployment works and how you can automate the process. Again the importance of testing is clear and it makes sense now why you would like to have testers in your team who can write good testing scripts.
+I now have a better understanding how deployment works and how you can automate the process. Again the importance of testing is clear and it makes sense now why you would like to have testers in your team who can write good testing scripts.
